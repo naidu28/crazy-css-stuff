@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.full-panel {
+  z-index: -5;
+  height: 100%;
+  width: 100%;
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animated-arrow {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow-small-circle {
+  height: 10px;
+  width: 8px;
+  margin-left: 2px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/*#arrow-large-circle {
+  height: 15px;
+  width: 15px;
+  margin-left: 2px;
+
+  border-radius: 20px;
+  background-color: white;
+}*/
+
+.arrow-layer-stacked {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /*margin-left: 12px;*/
+}
+
+.arrow-layer {
+  width: 8px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 5px white;
+
+  transition: .2s all ease;
+}
+
+.arrow-upper {
+  width: 8px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 5px white;
+
+  transition: .2s all ease;
+}
+
+.arrow-lower {
+  width: 8px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 5px white;
+
+  transition: .2s all ease;
+}
+
+#upper-5 {
+  margin-left: 10px;
+  margin-bottom: 21px;
+  height: 5px;
+}
+
+#lower-5 {
+  margin-left: 10px;
+  margin-top: 21px;
+  height: 5px;
+}
+
+#upper-6 {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  height: 7px;
+}
+
+#lower-6 {
+  margin-left: 10px;
+  margin-top: 20px;
+  height: 7px;
+}
+
+#upper-7 {
+  margin-left: 10px;
+  margin-bottom: 15px;
+  height: 10px;
+}
+
+#lower-7 {
+  margin-left: 10px;
+  margin-top: 15px;
+  height: 10px;
+}
+
+#upper-8 {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  height: 12px;
+}
+
+#lower-8 {
+  margin-left: 10px;
+  margin-top: 5px;
+  height: 12px;
+}
+
+#layer-0 {
+  height: 5px;
+}
+
+#layer-1 {
+  height: 7px;
+}
+
+#layer-2 {
+  height: 10px;
+}
+
+#layer-3 {
+  height: 12px;
+}
+
+#layer-4 {
+  height: 15px;
+}
+
+#layer-5 {
+  height: 19px;
+}
+
+#layer-6 {
+  height: 25px;
+}
+
+#layer-7 {
+  height: 32px;
+}
+
+#layer-8 {
+  height: 45px;
+}
+
+#layer-9 {
+  height: 75px;
+}
+
+#layer-10 {
+  height: 60px;
+}
+
+#layer-11 {
+  height: 57px;
+}
+
+#layer-11 {
+  height: 35px;
+}
+
+#layer-12 {
+  height: 12px;
+}
+
+#sky {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #333333;
+  /*box-shadow: -1000px 0px 1000px #333333;*/
+  /*background: linear-gradient(to right, #333333, #91C6CC);*/
+  overflow: hidden;
+}
+
+/*#sun {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  z-index: 10;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 100px white;
+  background-color: #FAE04B;
+}*/
+
+#moon-lightside {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  z-index: 10;
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  box-shadow: 0px 0px 20px white;
+  background-color: #DDDDDD;
+}
+
+#moon-darkside {
+  position: absolute;
+  top: 20px;
+  right: 120px;
+  z-index: 10;
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  box-shadow: inset 0px 0px 20px white;
+  background-color: #333333;
+}
+
+#moon-cleanup {
+  position: absolute;
+  right: 240px;
+  z-index: 10;
+  height: 500px;
+  width: 300px;
+  background-color: #333333;
+}
+
+#earth {
+  position: absolute;
+  height: 300%;
+  width: 300%;
+  border-radius: 150%;
+  background-color: #44AD63;
+  left: -100%;
+  top: 75%;
+}
